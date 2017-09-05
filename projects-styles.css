@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  'Droid Serif', serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: #0A173F;
+    height: 10vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    margin-bottom: 10vh;
+}
+
+.mainicon {
+    padding: 4vh;
+}
+
+.buttons {
+    padding: 4vh;
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    margin-top: 20vh;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    font-size: 100px;
+}

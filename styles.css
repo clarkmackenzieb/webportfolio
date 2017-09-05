@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  'Droid Serif', serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: #0A173F;
+    height: 10vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.mainicon {
+    padding: 4vh;
+}
+
+.buttons {
+    padding: 4vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#nicepic {
+    height: 40vh;
+    padding: 5vh;
+    border-radius: 50%;
+}
+
+.resumetext{
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.miniresume{
+    margin-top: 10vh;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+}
+
+.projectglance{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0A173F;
+    text-align: center;
+    
+}
+
+.projectlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+#miniaboutme{
+    height: 50vh;
+    width: 100%;
+    padding: 10vh 10vw 10vh 0vw;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    justify-content: space-around;
+}
+
+.bottompic {
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.botpicholder {
+    width: 20vw;
+    background-image: url("https://lh3.googleusercontent.com/yrbJmmAFCS24cfEbzgO98-YIHqmTA_ffwXEpJsMiMq5mxTPeio3cuaaOOWsiO62dDUUSIIRWWjCmaw=w733-h550-rw");
+    background-position: center; 
+}
+
+.botleftcol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 10vw;
+}
+
+#twitter {
+    width: 60px;
+    height: 60px;
+}
+
+#FB {
+    width: 60px;
+    height: 60px;
+}
+
+#github {
+    width: 60px;
+    height: 60px;
+}
+
+#linkedin {
+    width: 60px;
+    height: 60px;
+}
+
+.botrightcol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 10vw;
+}
